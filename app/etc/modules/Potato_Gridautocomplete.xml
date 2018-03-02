@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Potato_Gridautocomplete>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Potato_Gridautocomplete>
+    </modules>
+    <admin>
+        <routers>
+            <po_gridautocomplete_admin>
+                <use>admin</use>
+                <args>
+                    <module>Potato_Gridautocomplete</module>
+                    <frontName>po_gridautocomplete_admin</frontName>
+                </args>
+            </po_gridautocomplete_admin>
+        </routers>
+    </admin>
+    <adminhtml>
+        <layout>
+            <updates>
+                <po_gridautocomplete module="Potato_Gridautocomplete">
+                    <file>po_gridautocomplete.xml</file>
+                </po_gridautocomplete>
+            </updates>
+        </layout>
+    </adminhtml>
+    <global>
+        <helpers>
+            <po_gridautocomplete>
+                <class>Potato_Gridautocomplete_Helper</class>
+            </po_gridautocomplete>
+        </helpers>
+        <blocks>
+            <po_gridautocomplete>
+                <class>Potato_Gridautocomplete_Block</class>
+            </po_gridautocomplete>
+        </blocks>
+        <models>
+            <po_gridautocomplete>
+                <class>Potato_Smsnotice_Model</class>
+            </po_gridautocomplete>
+        </models>
+    </global>
+</config>

@@ -1,27 +1,22 @@
 {
-	"name": "hgati/jreinke-magento-admin-theme",
-	"type": "magento-module",
-	"description": "Magento Admin Theme for Magento 1.x",
+    "name": "hgati/grid-auto-complete",
+    "type": "magento-module",
+    "description": "Admin Grid Auto Complete (Suggestion) for Magento 1.x",
 
     "extra": {
-    	"map": [
-    		["app/code/community/Bubble/AdminTheme", "app/code/community/Bubble/AdminTheme"],
-			["app/design/adminhtml/base/default/layout/bubble", "app/design/adminhtml/base/default/layout/bubble"],
-			["app/design/adminhtml/base/default/template/bubble/admintheme", "app/design/adminhtml/base/default/template/bubble/admintheme"],
-			["app/design/adminhtml/default/flatblue", "app/design/adminhtml/default/flatblue"],
-			["app/design/adminhtml/default/flatgray", "app/design/adminhtml/default/flatgray"],
-			["app/design/adminhtml/default/flatorange", "app/design/adminhtml/default/flatorange"],
-			["app/design/adminhtml/default/go", "app/design/adminhtml/default/go"],
-			["app/design/adminhtml/default/magento", "app/design/adminhtml/default/magento"],
-			["app/design/adminhtml/default/magento2", "app/design/adminhtml/default/magento2"],
-			["app/locale/fr_FR/Bubble_AdminTheme.csv", "app/locale/fr_FR/Bubble_AdminTheme.csv"],
-			["skin/adminhtml/default/flatblue", "skin/adminhtml/default/flatblue"],
-			["skin/adminhtml/default/flatgray", "skin/adminhtml/default/flatgray"],
-			["skin/adminhtml/default/flatorange", "skin/adminhtml/default/flatorange"],
-			["skin/adminhtml/default/go", "skin/adminhtml/default/go"],
-			["skin/adminhtml/default/magento", "skin/adminhtml/default/magento"],
-			["skin/adminhtml/default/magento2", "skin/adminhtml/default/magento2"],
-    		["app/etc/modules/Bubble_AdminTheme.xml", "app/etc/modules/Bubble_AdminTheme.xml"]
-    	]
+        "map": [
+            ["app/code/community/Potato/Core", "app/code/community/Potato/Core"],
+            ["app/code/local/Potato/Gridautocomplete", "app/code/local/Potato/Gridautocomplete"],
+            ["app/design/adminhtml/default/default/layout/po_core.xml", "app/design/adminhtml/default/default/layout/po_core.xml"],
+            ["app/design/adminhtml/default/default/layout/po_gridautocomplete.xml", "app/design/adminhtml/default/default/layout/po_gridautocomplete.xml"],
+            ["app/design/adminhtml/default/default/template/po_core", "app/design/adminhtml/default/default/template/po_core"],
+            ["app/design/adminhtml/default/default/template/potato_gridautocomplete", "app/design/adminhtml/default/default/template/potato_gridautocomplete"],
+            ["app/etc/modules/Potato_Core.xml", "app/etc/modules/Potato_Core.xml"],
+            ["app/etc/modules/Potato_Gridautocomplete.xml", "app/etc/modules/Potato_Gridautocomplete.xml"],
+            ["app/locale/en_US/template/email/po_core_new_question_to_support.html", "app/locale/en_US/template/email/po_core_new_question_to_support.html"],
+            ["app/locale/en_US/Potato_Core.csv", "app/locale/en_US/Potato_Core.csv"],
+            ["skin/adminhtml/default/default/po_core", "skin/adminhtml/default/default/po_core"],
+            ["skin/adminhtml/default/default/po_gridautocomplete", "skin/adminhtml/default/default/po_gridautocomplete"]
+        ]
     }
 }
